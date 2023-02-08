@@ -1,7 +1,7 @@
 plugins {
-    kotlin("jvm") version "1.7.20"
+    kotlin("jvm") version "1.8.0"
     application
-    id("org.jetbrains.compose") version "1.2.2"
+    id("org.jetbrains.compose") version "1.3.0"
 }
 
 group = "cc.tietz"
@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains.compose.runtime:runtime:1.2.2")
+    implementation("org.jetbrains.compose.runtime:runtime:1.3.0")
 }
 
 tasks.test {
